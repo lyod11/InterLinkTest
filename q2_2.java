@@ -36,6 +36,8 @@ public class Cat extends Animal(){
 	}
 }
 
+public class Main{
+
 	public static int main(String[args]){
 		Creatures creature = new Creatures();
 		creature.breath(); // Output:Breathing
@@ -49,4 +51,6 @@ public class Cat extends Animal(){
 		cat.run(); //Output: running
 
 	}
+
+}
 
